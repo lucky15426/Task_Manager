@@ -2,9 +2,6 @@
 
 A premium full-stack task management application designed for productivity. Built with a modern React frontend and a robust Node.js/Express backend, featuring secure authentication and a sleek UI.
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Tech](https://img.shields.io/badge/Stack-MERN-blue)
-![Auth](https://img.shields.io/badge/Auth-Clerk-purple)
 
 ---
 
@@ -69,7 +66,7 @@ task-manager/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/lucky15426/Task_Manager.git>
 cd task-manager
 ```
 
