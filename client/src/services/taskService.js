@@ -4,7 +4,9 @@
  */
 
 // Use environment variable for API URL in production, fallback to localhost for development
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+let BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+// Ensure the URL ends with /api for the service layer
+const API_BASE_URL = BASE_URL.endsWith('/api') ? BASE_URL : `${BASE_URL.replace(/\/$/, '')}/api`;
 
 /**
  * Fetch all tasks from the server
